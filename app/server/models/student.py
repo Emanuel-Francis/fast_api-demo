@@ -2,6 +2,7 @@ from typing import Optional
 from pydantic import BaseModel, EmailStr, Field
 
 
+
 class StudentScheme(BaseModel):
     fullname: str = Field(...)
     email: EmailStr = Field(...)
